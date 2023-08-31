@@ -303,6 +303,62 @@ section#ubicacion h1 {
   border-radius: 10px;
 }
 
+.titulo-slider {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 50px;
+  color: #ffffff;
+}
+
+.slider-box {
+  width: 1280px;
+  height: auto;
+  margin: 50px auto 0;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.slider-box ul {
+  display: flex;
+  padding: 0;
+  width: 400%;
+  animation: slide 20s infinite alternate ease-in-out;
+}
+.slider-box li {
+  width: 100%;
+  list-style: none;
+  position: relative;
+}
+.slider-box img {
+  width: 100%;
+  height: 500px;
+}
+
+@keyframes slide {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+  75% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
 /* FIN UBICACION MAIN */
 /* NOSOTROS MAIN */
 section#nosotros {
@@ -352,7 +408,7 @@ section#nosotros h1 {
 }
 .team .center h1 {
   color: #fff;
-  font-size: 40px;
+  font-size: 25px;
   text-align: center;
 }
 
@@ -533,6 +589,31 @@ section#contact h1 {
   }
 }
 /* FIN RESPONSIVE GALERIA */
+/* UBICACION RESPONSIVE */
+@media (max-width: 991px) {
+  .slider-box {
+    width: 100%;
+  }
+}
+/* FIN UBICACION RESPONSIVE */
+/* NOSOTROS RESPONSIVE */
+@media (max-width: 769px) {
+  .parrafo {
+    font-size: 15px;
+    margin: 50px;
+  }
+}
+@media (max-width: 1240px) {
+  .team {
+    width: 100%;
+    height: auto;
+    padding: 90px 2%;
+  }
+  .center h1 {
+    font-size: 20px;
+  }
+}
+/* FIN NOSOTROS RESPONSIVE */
 /* FOOTER RESPONSIVE */
 @media screen and (max-width: 800px) {
   .pie-pagina .grupo-1 {

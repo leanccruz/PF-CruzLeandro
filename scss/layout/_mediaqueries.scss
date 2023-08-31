@@ -89,6 +89,38 @@
 
 /* FIN RESPONSIVE GALERIA */
 
+/* UBICACION RESPONSIVE */
+
+@media (max-width:991px) {
+    .slider-box {
+        width: 100%;
+    }
+}
+
+/* FIN UBICACION RESPONSIVE */
+
+/* NOSOTROS RESPONSIVE */
+
+@media(max-width: 769px) {
+    .parrafo {
+        font-size: 15px;
+        margin: 50px;
+    }
+}
+
+@media(max-width: 1240px){
+	.team{
+		width: 100%;
+		height: auto;
+		padding: 90px 2%;
+	}
+	.center h1{
+		font-size: 20px;
+	}
+}
+
+/* FIN NOSOTROS RESPONSIVE */
+
 /* FOOTER RESPONSIVE */
 
 @media screen and (max-width:800px){
