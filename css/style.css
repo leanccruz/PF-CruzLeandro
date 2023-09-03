@@ -591,9 +591,6 @@ section#contact h1 {
 @media (max-width: 991px) {
   .slider-frame {
     width: 100%;
-    margin-left: 10px;
-    margin-right: 10px;
-    overflow: hidden;
   }
 }
 /* FIN UBICACION RESPONSIVE */
