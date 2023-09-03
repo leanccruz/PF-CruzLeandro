@@ -589,7 +589,7 @@ section#contact h1 {
 /* FIN RESPONSIVE GALERIA */
 /* UBICACION RESPONSIVE */
 @media (max-width: 991px) {
-  .slider-box {
+  .slider-frame {
     width: 100%;
   }
 }
