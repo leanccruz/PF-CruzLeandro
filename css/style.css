@@ -310,27 +310,25 @@ section#ubicacion h1 {
   color: #ffffff;
 }
 
-.slider-box {
-  width: 1280px;
+.slider-frame {
+  width: 950px;
   height: auto;
   margin: 50px auto 0;
   overflow: hidden;
   border-radius: 15px;
 }
-.slider-box ul {
+.slider-frame ul {
   display: flex;
   padding: 0;
   width: 400%;
   animation: slide 20s infinite alternate ease-in-out;
 }
-.slider-box li {
+.slider-frame li {
   width: 100%;
   list-style: none;
-  position: relative;
 }
-.slider-box img {
+.slider-frame img {
   width: 100%;
-  height: 500px;
 }
 
 @keyframes slide {
